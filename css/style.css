@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+}
+
+body {
+    font-family: 'Miso light';
+    font-size: 28px;
+    background: #fdde7e;
+    padding-top: 49px;
+
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1137px;
+    margin: 0 auto;
+}
+
+.bg-wh {
+    background: white;
+}
+
+.side {
+    margin: 31px 0;
+    padding: 29px 102px;
+    text-align: center;
+    box-shadow: rgb(100 100 111 / 20%) 0px 1px 5px 1px;
+}
+
+.center {
+    padding: 40px 105px 48px;
+    text-align: center;
+    box-shadow: rgb(100 100 111 / 20%) 0px 1px 5px 1px;
+}
+
+.money {
+    color: #02995b;
+    font-family: 'Miso Bold';
+    font-size: 70px;
+    margin-bottom: 30px;
+    letter-spacing: 0;
+}
+
+.money-side {
+    color: #02995b;
+    font-family: 'Miso Bold';
+    font-size: 70px;
+    margin-bottom: 10px;
+    letter-spacing: 0;
+}
+
+.cup {
+    margin-bottom: 31px;
+}
+
+.cup-side {
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+
+.name-side {
+    font-size: 55px;
+    margin-bottom: 15px;
+}
