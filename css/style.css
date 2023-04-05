@@ -27,8 +27,15 @@ body {
 }
 
 .side {
-    margin: 31px 0;
+    margin: 61px 0;
     padding: 29px 102px;
+    text-align: center;
+    box-shadow: rgb(100 100 111 / 20%) 0px 1px 5px 1px;
+}
+
+.side:hover {
+    margin: 0;
+    padding: 40px 105px 48px;
     text-align: center;
     box-shadow: rgb(100 100 111 / 20%) 0px 1px 5px 1px;
 }
@@ -39,7 +46,8 @@ body {
     box-shadow: rgb(100 100 111 / 20%) 0px 1px 5px 1px;
 }
 
-.money {
+
+.side:hover>.money-side {
     color: #02995b;
     font-family: 'Miso Bold';
     font-size: 70px;
@@ -55,15 +63,18 @@ body {
     letter-spacing: 0;
 }
 
-.cup {
+
+.side:hover>.cup-side {
     margin-bottom: 31px;
 }
 
 .cup-side {
-    margin-bottom: 20px;
+    margin-bottom: 21px;
 }
 
-.name {
+
+
+.side:hover>.name-side {
     font-size: 55px;
     margin-bottom: 15px;
 }
